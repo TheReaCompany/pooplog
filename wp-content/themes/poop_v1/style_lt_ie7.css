@@ -1,0 +1,25 @@
+#sidebar1, #content, #sodebar2
+{
+	display:inline;
+}
+
+#headerimg 	
+{
+	background:url(images/s.gif) repeat;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s3.amazonaws.com/pooplog/images/headerBGv2.png');
+}
+.post a.enlarge
+{
+	background:url(images/s.gif) repeat;
+}
+
+.post a.enlarge span
+{
+	display:block;
+	height:20px;
+	width:70px;
+	position:absolute;
+	top:15px;
+	right:15px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s3.amazonaws.com/pooplog/images/enlarge.png');
+}
